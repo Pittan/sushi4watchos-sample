@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7D7F571DE8789E00B0B5BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7F561DE8789E00B0B5BA /* main.m */; };
+		3F7D7F5A1DE8789E00B0B5BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7F591DE8789E00B0B5BA /* AppDelegate.m */; };
+		3F7D7F5D1DE8789E00B0B5BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7F5C1DE8789E00B0B5BA /* ViewController.m */; };
+		3F7D7F601DE8789E00B0B5BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D7F5E1DE8789E00B0B5BA /* Main.storyboard */; };
+		3F7D7F621DE8789E00B0B5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D7F611DE8789E00B0B5BA /* Assets.xcassets */; };
+		3F7D7F651DE8789E00B0B5BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D7F631DE8789E00B0B5BA /* LaunchScreen.storyboard */; };
+		3F7D7F701DE8789E00B0B5BA /* sushi4watchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7F6F1DE8789E00B0B5BA /* sushi4watchTests.m */; };
+		3F7D7F751DE8789E00B0B5BA /* sushi4watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F7D7F741DE8789E00B0B5BA /* sushi4watch WatchKit App.app */; };
+		3F7D7F7B1DE8789E00B0B5BA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D7F791DE8789E00B0B5BA /* Interface.storyboard */; };
+		3F7D7F7D1DE8789E00B0B5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D7F7C1DE8789E00B0B5BA /* Assets.xcassets */; };
+		3F7D7F841DE8789E00B0B5BA /* sushi4watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F7D7F831DE8789E00B0B5BA /* sushi4watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F7D7F8C1DE8789E00B0B5BA /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7F8B1DE8789E00B0B5BA /* InterfaceController.m */; };
+		3F7D7F8F1DE8789E00B0B5BA /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7F8E1DE8789E00B0B5BA /* ExtensionDelegate.m */; };
+		3F7D7F921DE8789E00B0B5BA /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7F911DE8789E00B0B5BA /* NotificationController.m */; };
+		3F7D7F941DE8789E00B0B5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D7F931DE8789E00B0B5BA /* Assets.xcassets */; };
+		3F7D802B1DE8857E00B0B5BA /* sushi_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D7FFF1DE8857E00B0B5BA /* sushi_1@2x.png */; };
+		3F7D802C1DE8857E00B0B5BA /* sushi_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80001DE8857E00B0B5BA /* sushi_2@2x.png */; };
+		3F7D802D1DE8857E00B0B5BA /* sushi_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80011DE8857E00B0B5BA /* sushi_3@2x.png */; };
+		3F7D802E1DE8857E00B0B5BA /* sushi_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80021DE8857E00B0B5BA /* sushi_4@2x.png */; };
+		3F7D802F1DE8857E00B0B5BA /* sushi_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80031DE8857E00B0B5BA /* sushi_5@2x.png */; };
+		3F7D80301DE8857E00B0B5BA /* sushi_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80041DE8857E00B0B5BA /* sushi_6@2x.png */; };
+		3F7D80311DE8857E00B0B5BA /* sushi_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80051DE8857E00B0B5BA /* sushi_7@2x.png */; };
+		3F7D80321DE8857E00B0B5BA /* sushi_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80061DE8857E00B0B5BA /* sushi_8@2x.png */; };
+		3F7D80331DE8857E00B0B5BA /* sushi_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80071DE8857E00B0B5BA /* sushi_9@2x.png */; };
+		3F7D80341DE8857E00B0B5BA /* sushi_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80081DE8857E00B0B5BA /* sushi_10@2x.png */; };
+		3F7D80351DE8857E00B0B5BA /* sushi_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80091DE8857E00B0B5BA /* sushi_11@2x.png */; };
+		3F7D80361DE8857E00B0B5BA /* sushi_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D800A1DE8857E00B0B5BA /* sushi_12@2x.png */; };
+		3F7D80371DE8857E00B0B5BA /* sushi_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D800B1DE8857E00B0B5BA /* sushi_13@2x.png */; };
+		3F7D80381DE8857E00B0B5BA /* sushi_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D800C1DE8857E00B0B5BA /* sushi_14@2x.png */; };
+		3F7D80391DE8857E00B0B5BA /* sushi_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D800D1DE8857E00B0B5BA /* sushi_15@2x.png */; };
+		3F7D803A1DE8857E00B0B5BA /* sushi_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D800E1DE8857E00B0B5BA /* sushi_16@2x.png */; };
+		3F7D803B1DE8857E00B0B5BA /* sushi_17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D800F1DE8857E00B0B5BA /* sushi_17@2x.png */; };
+		3F7D803C1DE8857E00B0B5BA /* sushi_18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80101DE8857E00B0B5BA /* sushi_18@2x.png */; };
+		3F7D803D1DE8857E00B0B5BA /* sushi_19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80111DE8857E00B0B5BA /* sushi_19@2x.png */; };
+		3F7D803E1DE8857E00B0B5BA /* sushi_20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80121DE8857E00B0B5BA /* sushi_20@2x.png */; };
+		3F7D803F1DE8857E00B0B5BA /* sushi_21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80131DE8857E00B0B5BA /* sushi_21@2x.png */; };
+		3F7D80401DE8857E00B0B5BA /* sushi_22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80141DE8857E00B0B5BA /* sushi_22@2x.png */; };
+		3F7D80411DE8857E00B0B5BA /* sushi_23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80151DE8857E00B0B5BA /* sushi_23@2x.png */; };
+		3F7D80421DE8857E00B0B5BA /* sushi_24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80161DE8857E00B0B5BA /* sushi_24@2x.png */; };
+		3F7D80431DE8857E00B0B5BA /* sushi_25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80171DE8857E00B0B5BA /* sushi_25@2x.png */; };
+		3F7D80441DE8857E00B0B5BA /* sushi_26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80181DE8857E00B0B5BA /* sushi_26@2x.png */; };
+		3F7D80451DE8857E00B0B5BA /* sushi_27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80191DE8857E00B0B5BA /* sushi_27@2x.png */; };
+		3F7D80461DE8857E00B0B5BA /* sushi_28@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D801A1DE8857E00B0B5BA /* sushi_28@2x.png */; };
+		3F7D80471DE8857E00B0B5BA /* sushi_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D801B1DE8857E00B0B5BA /* sushi_29@2x.png */; };
+		3F7D80481DE8857E00B0B5BA /* sushi_30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D801C1DE8857E00B0B5BA /* sushi_30@2x.png */; };
+		3F7D80491DE8857E00B0B5BA /* sushi_31@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D801D1DE8857E00B0B5BA /* sushi_31@2x.png */; };
+		3F7D804A1DE8857E00B0B5BA /* sushi_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D801E1DE8857E00B0B5BA /* sushi_32@2x.png */; };
+		3F7D804B1DE8857E00B0B5BA /* sushi_33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D801F1DE8857E00B0B5BA /* sushi_33@2x.png */; };
+		3F7D804C1DE8857E00B0B5BA /* sushi_34@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80201DE8857E00B0B5BA /* sushi_34@2x.png */; };
+		3F7D804D1DE8857E00B0B5BA /* sushi_35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80211DE8857E00B0B5BA /* sushi_35@2x.png */; };
+		3F7D804E1DE8857E00B0B5BA /* sushi_36@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80221DE8857E00B0B5BA /* sushi_36@2x.png */; };
+		3F7D804F1DE8857E00B0B5BA /* sushi_37@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80231DE8857E00B0B5BA /* sushi_37@2x.png */; };
+		3F7D80501DE8857E00B0B5BA /* sushi_38@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80241DE8857E00B0B5BA /* sushi_38@2x.png */; };
+		3F7D80511DE8857E00B0B5BA /* sushi_39@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80251DE8857E00B0B5BA /* sushi_39@2x.png */; };
+		3F7D80521DE8857E00B0B5BA /* sushi_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80261DE8857E00B0B5BA /* sushi_40@2x.png */; };
+		3F7D80531DE8857E00B0B5BA /* sushi_41@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80271DE8857E00B0B5BA /* sushi_41@2x.png */; };
+		3F7D80541DE8857E00B0B5BA /* sushi_42@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80281DE8857E00B0B5BA /* sushi_42@2x.png */; };
+		3F7D80551DE8857E00B0B5BA /* sushi_43@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D80291DE8857E00B0B5BA /* sushi_43@2x.png */; };
+		3F7D80561DE8857E00B0B5BA /* sushi_44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D802A1DE8857E00B0B5BA /* sushi_44@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7D7F6C1DE8789E00B0B5BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7D7F4A1DE8789E00B0B5BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7D7F511DE8789E00B0B5BA;
+			remoteInfo = sushi4watch;
+		};
+		3F7D7F761DE8789E00B0B5BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7D7F4A1DE8789E00B0B5BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7D7F731DE8789E00B0B5BA;
+			remoteInfo = "sushi4watch WatchKit App";
+		};
+		3F7D7F851DE8789E00B0B5BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7D7F4A1DE8789E00B0B5BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7D7F821DE8789E00B0B5BA;
+			remoteInfo = "sushi4watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F7D7F9B1DE8789E00B0B5BA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F7D7F841DE8789E00B0B5BA /* sushi4watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F9F1DE8789E00B0B5BA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F7D7F751DE8789E00B0B5BA /* sushi4watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F7D7F521DE8789E00B0B5BA /* sushi4watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sushi4watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D7F561DE8789E00B0B5BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7D7F581DE8789E00B0B5BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7D7F591DE8789E00B0B5BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7D7F5B1DE8789E00B0B5BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F7D7F5C1DE8789E00B0B5BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F7D7F5F1DE8789E00B0B5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7D7F611DE8789E00B0B5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7D7F641DE8789E00B0B5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7D7F661DE8789E00B0B5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7D7F6B1DE8789E00B0B5BA /* sushi4watchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushi4watchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D7F6F1DE8789E00B0B5BA /* sushi4watchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sushi4watchTests.m; sourceTree = "<group>"; };
+		3F7D7F711DE8789E00B0B5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7D7F741DE8789E00B0B5BA /* sushi4watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sushi4watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D7F7A1DE8789E00B0B5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F7D7F7C1DE8789E00B0B5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7D7F7E1DE8789E00B0B5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7D7F831DE8789E00B0B5BA /* sushi4watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sushi4watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7D7F891DE8789E00B0B5BA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3F7D7F8A1DE8789E00B0B5BA /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		3F7D7F8B1DE8789E00B0B5BA /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		3F7D7F8D1DE8789E00B0B5BA /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		3F7D7F8E1DE8789E00B0B5BA /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		3F7D7F901DE8789E00B0B5BA /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		3F7D7F911DE8789E00B0B5BA /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		3F7D7F931DE8789E00B0B5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7D7F951DE8789E00B0B5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7D7FFF1DE8857E00B0B5BA /* sushi_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_1@2x.png"; sourceTree = "<group>"; };
+		3F7D80001DE8857E00B0B5BA /* sushi_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_2@2x.png"; sourceTree = "<group>"; };
+		3F7D80011DE8857E00B0B5BA /* sushi_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_3@2x.png"; sourceTree = "<group>"; };
+		3F7D80021DE8857E00B0B5BA /* sushi_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_4@2x.png"; sourceTree = "<group>"; };
+		3F7D80031DE8857E00B0B5BA /* sushi_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_5@2x.png"; sourceTree = "<group>"; };
+		3F7D80041DE8857E00B0B5BA /* sushi_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_6@2x.png"; sourceTree = "<group>"; };
+		3F7D80051DE8857E00B0B5BA /* sushi_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_7@2x.png"; sourceTree = "<group>"; };
+		3F7D80061DE8857E00B0B5BA /* sushi_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_8@2x.png"; sourceTree = "<group>"; };
+		3F7D80071DE8857E00B0B5BA /* sushi_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_9@2x.png"; sourceTree = "<group>"; };
+		3F7D80081DE8857E00B0B5BA /* sushi_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_10@2x.png"; sourceTree = "<group>"; };
+		3F7D80091DE8857E00B0B5BA /* sushi_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_11@2x.png"; sourceTree = "<group>"; };
+		3F7D800A1DE8857E00B0B5BA /* sushi_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_12@2x.png"; sourceTree = "<group>"; };
+		3F7D800B1DE8857E00B0B5BA /* sushi_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_13@2x.png"; sourceTree = "<group>"; };
+		3F7D800C1DE8857E00B0B5BA /* sushi_14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_14@2x.png"; sourceTree = "<group>"; };
+		3F7D800D1DE8857E00B0B5BA /* sushi_15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_15@2x.png"; sourceTree = "<group>"; };
+		3F7D800E1DE8857E00B0B5BA /* sushi_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_16@2x.png"; sourceTree = "<group>"; };
+		3F7D800F1DE8857E00B0B5BA /* sushi_17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_17@2x.png"; sourceTree = "<group>"; };
+		3F7D80101DE8857E00B0B5BA /* sushi_18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_18@2x.png"; sourceTree = "<group>"; };
+		3F7D80111DE8857E00B0B5BA /* sushi_19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_19@2x.png"; sourceTree = "<group>"; };
+		3F7D80121DE8857E00B0B5BA /* sushi_20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_20@2x.png"; sourceTree = "<group>"; };
+		3F7D80131DE8857E00B0B5BA /* sushi_21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_21@2x.png"; sourceTree = "<group>"; };
+		3F7D80141DE8857E00B0B5BA /* sushi_22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_22@2x.png"; sourceTree = "<group>"; };
+		3F7D80151DE8857E00B0B5BA /* sushi_23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_23@2x.png"; sourceTree = "<group>"; };
+		3F7D80161DE8857E00B0B5BA /* sushi_24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_24@2x.png"; sourceTree = "<group>"; };
+		3F7D80171DE8857E00B0B5BA /* sushi_25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_25@2x.png"; sourceTree = "<group>"; };
+		3F7D80181DE8857E00B0B5BA /* sushi_26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_26@2x.png"; sourceTree = "<group>"; };
+		3F7D80191DE8857E00B0B5BA /* sushi_27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_27@2x.png"; sourceTree = "<group>"; };
+		3F7D801A1DE8857E00B0B5BA /* sushi_28@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_28@2x.png"; sourceTree = "<group>"; };
+		3F7D801B1DE8857E00B0B5BA /* sushi_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_29@2x.png"; sourceTree = "<group>"; };
+		3F7D801C1DE8857E00B0B5BA /* sushi_30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_30@2x.png"; sourceTree = "<group>"; };
+		3F7D801D1DE8857E00B0B5BA /* sushi_31@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_31@2x.png"; sourceTree = "<group>"; };
+		3F7D801E1DE8857E00B0B5BA /* sushi_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_32@2x.png"; sourceTree = "<group>"; };
+		3F7D801F1DE8857E00B0B5BA /* sushi_33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_33@2x.png"; sourceTree = "<group>"; };
+		3F7D80201DE8857E00B0B5BA /* sushi_34@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_34@2x.png"; sourceTree = "<group>"; };
+		3F7D80211DE8857E00B0B5BA /* sushi_35@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_35@2x.png"; sourceTree = "<group>"; };
+		3F7D80221DE8857E00B0B5BA /* sushi_36@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_36@2x.png"; sourceTree = "<group>"; };
+		3F7D80231DE8857E00B0B5BA /* sushi_37@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_37@2x.png"; sourceTree = "<group>"; };
+		3F7D80241DE8857E00B0B5BA /* sushi_38@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_38@2x.png"; sourceTree = "<group>"; };
+		3F7D80251DE8857E00B0B5BA /* sushi_39@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_39@2x.png"; sourceTree = "<group>"; };
+		3F7D80261DE8857E00B0B5BA /* sushi_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_40@2x.png"; sourceTree = "<group>"; };
+		3F7D80271DE8857E00B0B5BA /* sushi_41@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_41@2x.png"; sourceTree = "<group>"; };
+		3F7D80281DE8857E00B0B5BA /* sushi_42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_42@2x.png"; sourceTree = "<group>"; };
+		3F7D80291DE8857E00B0B5BA /* sushi_43@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_43@2x.png"; sourceTree = "<group>"; };
+		3F7D802A1DE8857E00B0B5BA /* sushi_44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi_44@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7D7F4F1DE8789E00B0B5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F681DE8789E00B0B5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F801DE8789E00B0B5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7D7F491DE8789E00B0B5BA = {
+			isa = PBXGroup;
+			children = (
+				3F7D7F541DE8789E00B0B5BA /* sushi4watch */,
+				3F7D7F6E1DE8789E00B0B5BA /* sushi4watchTests */,
+				3F7D7F781DE8789E00B0B5BA /* sushi4watch WatchKit App */,
+				3F7D7F871DE8789E00B0B5BA /* sushi4watch WatchKit Extension */,
+				3F7D7F531DE8789E00B0B5BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7D7F531DE8789E00B0B5BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7F521DE8789E00B0B5BA /* sushi4watch.app */,
+				3F7D7F6B1DE8789E00B0B5BA /* sushi4watchTests.xctest */,
+				3F7D7F741DE8789E00B0B5BA /* sushi4watch WatchKit App.app */,
+				3F7D7F831DE8789E00B0B5BA /* sushi4watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7D7F541DE8789E00B0B5BA /* sushi4watch */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7F581DE8789E00B0B5BA /* AppDelegate.h */,
+				3F7D7F591DE8789E00B0B5BA /* AppDelegate.m */,
+				3F7D7F5B1DE8789E00B0B5BA /* ViewController.h */,
+				3F7D7F5C1DE8789E00B0B5BA /* ViewController.m */,
+				3F7D7F5E1DE8789E00B0B5BA /* Main.storyboard */,
+				3F7D7F611DE8789E00B0B5BA /* Assets.xcassets */,
+				3F7D7F631DE8789E00B0B5BA /* LaunchScreen.storyboard */,
+				3F7D7F661DE8789E00B0B5BA /* Info.plist */,
+				3F7D7F551DE8789E00B0B5BA /* Supporting Files */,
+			);
+			path = sushi4watch;
+			sourceTree = "<group>";
+		};
+		3F7D7F551DE8789E00B0B5BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7F561DE8789E00B0B5BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7D7F6E1DE8789E00B0B5BA /* sushi4watchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7F6F1DE8789E00B0B5BA /* sushi4watchTests.m */,
+				3F7D7F711DE8789E00B0B5BA /* Info.plist */,
+			);
+			path = sushi4watchTests;
+			sourceTree = "<group>";
+		};
+		3F7D7F781DE8789E00B0B5BA /* sushi4watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7FA61DE8850E00B0B5BA /* sushi */,
+				3F7D7F791DE8789E00B0B5BA /* Interface.storyboard */,
+				3F7D7F7C1DE8789E00B0B5BA /* Assets.xcassets */,
+				3F7D7F7E1DE8789E00B0B5BA /* Info.plist */,
+			);
+			path = "sushi4watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F7D7F871DE8789E00B0B5BA /* sushi4watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7F8A1DE8789E00B0B5BA /* InterfaceController.h */,
+				3F7D7F8B1DE8789E00B0B5BA /* InterfaceController.m */,
+				3F7D7F8D1DE8789E00B0B5BA /* ExtensionDelegate.h */,
+				3F7D7F8E1DE8789E00B0B5BA /* ExtensionDelegate.m */,
+				3F7D7F901DE8789E00B0B5BA /* NotificationController.h */,
+				3F7D7F911DE8789E00B0B5BA /* NotificationController.m */,
+				3F7D7F931DE8789E00B0B5BA /* Assets.xcassets */,
+				3F7D7F951DE8789E00B0B5BA /* Info.plist */,
+				3F7D7F881DE8789E00B0B5BA /* Supporting Files */,
+			);
+			path = "sushi4watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3F7D7F881DE8789E00B0B5BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7F891DE8789E00B0B5BA /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7D7FA61DE8850E00B0B5BA /* sushi */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D7FFF1DE8857E00B0B5BA /* sushi_1@2x.png */,
+				3F7D80001DE8857E00B0B5BA /* sushi_2@2x.png */,
+				3F7D80011DE8857E00B0B5BA /* sushi_3@2x.png */,
+				3F7D80021DE8857E00B0B5BA /* sushi_4@2x.png */,
+				3F7D80031DE8857E00B0B5BA /* sushi_5@2x.png */,
+				3F7D80041DE8857E00B0B5BA /* sushi_6@2x.png */,
+				3F7D80051DE8857E00B0B5BA /* sushi_7@2x.png */,
+				3F7D80061DE8857E00B0B5BA /* sushi_8@2x.png */,
+				3F7D80071DE8857E00B0B5BA /* sushi_9@2x.png */,
+				3F7D80081DE8857E00B0B5BA /* sushi_10@2x.png */,
+				3F7D80091DE8857E00B0B5BA /* sushi_11@2x.png */,
+				3F7D800A1DE8857E00B0B5BA /* sushi_12@2x.png */,
+				3F7D800B1DE8857E00B0B5BA /* sushi_13@2x.png */,
+				3F7D800C1DE8857E00B0B5BA /* sushi_14@2x.png */,
+				3F7D800D1DE8857E00B0B5BA /* sushi_15@2x.png */,
+				3F7D800E1DE8857E00B0B5BA /* sushi_16@2x.png */,
+				3F7D800F1DE8857E00B0B5BA /* sushi_17@2x.png */,
+				3F7D80101DE8857E00B0B5BA /* sushi_18@2x.png */,
+				3F7D80111DE8857E00B0B5BA /* sushi_19@2x.png */,
+				3F7D80121DE8857E00B0B5BA /* sushi_20@2x.png */,
+				3F7D80131DE8857E00B0B5BA /* sushi_21@2x.png */,
+				3F7D80141DE8857E00B0B5BA /* sushi_22@2x.png */,
+				3F7D80151DE8857E00B0B5BA /* sushi_23@2x.png */,
+				3F7D80161DE8857E00B0B5BA /* sushi_24@2x.png */,
+				3F7D80171DE8857E00B0B5BA /* sushi_25@2x.png */,
+				3F7D80181DE8857E00B0B5BA /* sushi_26@2x.png */,
+				3F7D80191DE8857E00B0B5BA /* sushi_27@2x.png */,
+				3F7D801A1DE8857E00B0B5BA /* sushi_28@2x.png */,
+				3F7D801B1DE8857E00B0B5BA /* sushi_29@2x.png */,
+				3F7D801C1DE8857E00B0B5BA /* sushi_30@2x.png */,
+				3F7D801D1DE8857E00B0B5BA /* sushi_31@2x.png */,
+				3F7D801E1DE8857E00B0B5BA /* sushi_32@2x.png */,
+				3F7D801F1DE8857E00B0B5BA /* sushi_33@2x.png */,
+				3F7D80201DE8857E00B0B5BA /* sushi_34@2x.png */,
+				3F7D80211DE8857E00B0B5BA /* sushi_35@2x.png */,
+				3F7D80221DE8857E00B0B5BA /* sushi_36@2x.png */,
+				3F7D80231DE8857E00B0B5BA /* sushi_37@2x.png */,
+				3F7D80241DE8857E00B0B5BA /* sushi_38@2x.png */,
+				3F7D80251DE8857E00B0B5BA /* sushi_39@2x.png */,
+				3F7D80261DE8857E00B0B5BA /* sushi_40@2x.png */,
+				3F7D80271DE8857E00B0B5BA /* sushi_41@2x.png */,
+				3F7D80281DE8857E00B0B5BA /* sushi_42@2x.png */,
+				3F7D80291DE8857E00B0B5BA /* sushi_43@2x.png */,
+				3F7D802A1DE8857E00B0B5BA /* sushi_44@2x.png */,
+			);
+			path = sushi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7D7F511DE8789E00B0B5BA /* sushi4watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7D7FA01DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watch" */;
+			buildPhases = (
+				3F7D7F4E1DE8789E00B0B5BA /* Sources */,
+				3F7D7F4F1DE8789E00B0B5BA /* Frameworks */,
+				3F7D7F501DE8789E00B0B5BA /* Resources */,
+				3F7D7F9F1DE8789E00B0B5BA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7D7F771DE8789E00B0B5BA /* PBXTargetDependency */,
+			);
+			name = sushi4watch;
+			productName = sushi4watch;
+			productReference = 3F7D7F521DE8789E00B0B5BA /* sushi4watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7D7F6A1DE8789E00B0B5BA /* sushi4watchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7D7FA31DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watchTests" */;
+			buildPhases = (
+				3F7D7F671DE8789E00B0B5BA /* Sources */,
+				3F7D7F681DE8789E00B0B5BA /* Frameworks */,
+				3F7D7F691DE8789E00B0B5BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7D7F6D1DE8789E00B0B5BA /* PBXTargetDependency */,
+			);
+			name = sushi4watchTests;
+			productName = sushi4watchTests;
+			productReference = 3F7D7F6B1DE8789E00B0B5BA /* sushi4watchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F7D7F731DE8789E00B0B5BA /* sushi4watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7D7F9C1DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit App" */;
+			buildPhases = (
+				3F7D7F721DE8789E00B0B5BA /* Resources */,
+				3F7D7F9B1DE8789E00B0B5BA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7D7F861DE8789E00B0B5BA /* PBXTargetDependency */,
+			);
+			name = "sushi4watch WatchKit App";
+			productName = "sushi4watch WatchKit App";
+			productReference = 3F7D7F741DE8789E00B0B5BA /* sushi4watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F7D7F821DE8789E00B0B5BA /* sushi4watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7D7F981DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit Extension" */;
+			buildPhases = (
+				3F7D7F7F1DE8789E00B0B5BA /* Sources */,
+				3F7D7F801DE8789E00B0B5BA /* Frameworks */,
+				3F7D7F811DE8789E00B0B5BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sushi4watch WatchKit Extension";
+			productName = "sushi4watch WatchKit Extension";
+			productReference = 3F7D7F831DE8789E00B0B5BA /* sushi4watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7D7F4A1DE8789E00B0B5BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Amon Keishima";
+				TargetAttributes = {
+					3F7D7F511DE8789E00B0B5BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 935UUHKEN9;
+						ProvisioningStyle = Automatic;
+					};
+					3F7D7F6A1DE8789E00B0B5BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 935UUHKEN9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F7D7F511DE8789E00B0B5BA;
+					};
+					3F7D7F731DE8789E00B0B5BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 935UUHKEN9;
+						ProvisioningStyle = Automatic;
+					};
+					3F7D7F821DE8789E00B0B5BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 935UUHKEN9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F7D7F4D1DE8789E00B0B5BA /* Build configuration list for PBXProject "sushi4watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7D7F491DE8789E00B0B5BA;
+			productRefGroup = 3F7D7F531DE8789E00B0B5BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7D7F511DE8789E00B0B5BA /* sushi4watch */,
+				3F7D7F6A1DE8789E00B0B5BA /* sushi4watchTests */,
+				3F7D7F731DE8789E00B0B5BA /* sushi4watch WatchKit App */,
+				3F7D7F821DE8789E00B0B5BA /* sushi4watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7D7F501DE8789E00B0B5BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D7F651DE8789E00B0B5BA /* LaunchScreen.storyboard in Resources */,
+				3F7D7F621DE8789E00B0B5BA /* Assets.xcassets in Resources */,
+				3F7D7F601DE8789E00B0B5BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F691DE8789E00B0B5BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F721DE8789E00B0B5BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D803A1DE8857E00B0B5BA /* sushi_16@2x.png in Resources */,
+				3F7D80341DE8857E00B0B5BA /* sushi_10@2x.png in Resources */,
+				3F7D80511DE8857E00B0B5BA /* sushi_39@2x.png in Resources */,
+				3F7D80551DE8857E00B0B5BA /* sushi_43@2x.png in Resources */,
+				3F7D804E1DE8857E00B0B5BA /* sushi_36@2x.png in Resources */,
+				3F7D802C1DE8857E00B0B5BA /* sushi_2@2x.png in Resources */,
+				3F7D802D1DE8857E00B0B5BA /* sushi_3@2x.png in Resources */,
+				3F7D803B1DE8857E00B0B5BA /* sushi_17@2x.png in Resources */,
+				3F7D802E1DE8857E00B0B5BA /* sushi_4@2x.png in Resources */,
+				3F7D80361DE8857E00B0B5BA /* sushi_12@2x.png in Resources */,
+				3F7D804F1DE8857E00B0B5BA /* sushi_37@2x.png in Resources */,
+				3F7D80441DE8857E00B0B5BA /* sushi_26@2x.png in Resources */,
+				3F7D80431DE8857E00B0B5BA /* sushi_25@2x.png in Resources */,
+				3F7D802F1DE8857E00B0B5BA /* sushi_5@2x.png in Resources */,
+				3F7D80301DE8857E00B0B5BA /* sushi_6@2x.png in Resources */,
+				3F7D80421DE8857E00B0B5BA /* sushi_24@2x.png in Resources */,
+				3F7D802B1DE8857E00B0B5BA /* sushi_1@2x.png in Resources */,
+				3F7D80321DE8857E00B0B5BA /* sushi_8@2x.png in Resources */,
+				3F7D804D1DE8857E00B0B5BA /* sushi_35@2x.png in Resources */,
+				3F7D804C1DE8857E00B0B5BA /* sushi_34@2x.png in Resources */,
+				3F7D7F7D1DE8789E00B0B5BA /* Assets.xcassets in Resources */,
+				3F7D803C1DE8857E00B0B5BA /* sushi_18@2x.png in Resources */,
+				3F7D80541DE8857E00B0B5BA /* sushi_42@2x.png in Resources */,
+				3F7D803E1DE8857E00B0B5BA /* sushi_20@2x.png in Resources */,
+				3F7D80491DE8857E00B0B5BA /* sushi_31@2x.png in Resources */,
+				3F7D804A1DE8857E00B0B5BA /* sushi_32@2x.png in Resources */,
+				3F7D80411DE8857E00B0B5BA /* sushi_23@2x.png in Resources */,
+				3F7D7F7B1DE8789E00B0B5BA /* Interface.storyboard in Resources */,
+				3F7D80531DE8857E00B0B5BA /* sushi_41@2x.png in Resources */,
+				3F7D80461DE8857E00B0B5BA /* sushi_28@2x.png in Resources */,
+				3F7D80521DE8857E00B0B5BA /* sushi_40@2x.png in Resources */,
+				3F7D80561DE8857E00B0B5BA /* sushi_44@2x.png in Resources */,
+				3F7D80501DE8857E00B0B5BA /* sushi_38@2x.png in Resources */,
+				3F7D80391DE8857E00B0B5BA /* sushi_15@2x.png in Resources */,
+				3F7D80351DE8857E00B0B5BA /* sushi_11@2x.png in Resources */,
+				3F7D80381DE8857E00B0B5BA /* sushi_14@2x.png in Resources */,
+				3F7D80371DE8857E00B0B5BA /* sushi_13@2x.png in Resources */,
+				3F7D80471DE8857E00B0B5BA /* sushi_29@2x.png in Resources */,
+				3F7D80401DE8857E00B0B5BA /* sushi_22@2x.png in Resources */,
+				3F7D80481DE8857E00B0B5BA /* sushi_30@2x.png in Resources */,
+				3F7D803D1DE8857E00B0B5BA /* sushi_19@2x.png in Resources */,
+				3F7D80331DE8857E00B0B5BA /* sushi_9@2x.png in Resources */,
+				3F7D804B1DE8857E00B0B5BA /* sushi_33@2x.png in Resources */,
+				3F7D803F1DE8857E00B0B5BA /* sushi_21@2x.png in Resources */,
+				3F7D80311DE8857E00B0B5BA /* sushi_7@2x.png in Resources */,
+				3F7D80451DE8857E00B0B5BA /* sushi_27@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F811DE8789E00B0B5BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D7F941DE8789E00B0B5BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7D7F4E1DE8789E00B0B5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D7F5D1DE8789E00B0B5BA /* ViewController.m in Sources */,
+				3F7D7F5A1DE8789E00B0B5BA /* AppDelegate.m in Sources */,
+				3F7D7F571DE8789E00B0B5BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F671DE8789E00B0B5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D7F701DE8789E00B0B5BA /* sushi4watchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7D7F7F1DE8789E00B0B5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7D7F8F1DE8789E00B0B5BA /* ExtensionDelegate.m in Sources */,
+				3F7D7F8C1DE8789E00B0B5BA /* InterfaceController.m in Sources */,
+				3F7D7F921DE8789E00B0B5BA /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7D7F6D1DE8789E00B0B5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7D7F511DE8789E00B0B5BA /* sushi4watch */;
+			targetProxy = 3F7D7F6C1DE8789E00B0B5BA /* PBXContainerItemProxy */;
+		};
+		3F7D7F771DE8789E00B0B5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7D7F731DE8789E00B0B5BA /* sushi4watch WatchKit App */;
+			targetProxy = 3F7D7F761DE8789E00B0B5BA /* PBXContainerItemProxy */;
+		};
+		3F7D7F861DE8789E00B0B5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7D7F821DE8789E00B0B5BA /* sushi4watch WatchKit Extension */;
+			targetProxy = 3F7D7F851DE8789E00B0B5BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7D7F5E1DE8789E00B0B5BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7D7F5F1DE8789E00B0B5BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7D7F631DE8789E00B0B5BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7D7F641DE8789E00B0B5BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7D7F791DE8789E00B0B5BA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7D7F7A1DE8789E00B0B5BA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7D7F961DE8789E00B0B5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7D7F971DE8789E00B0B5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7D7F991DE8789E00B0B5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				INFOPLIST_FILE = "sushi4watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3F7D7F9A1DE8789E00B0B5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				INFOPLIST_FILE = "sushi4watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		3F7D7F9D1DE8789E00B0B5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				IBSC_MODULE = sushi4watch_WatchKit_Extension;
+				INFOPLIST_FILE = "sushi4watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3F7D7F9E1DE8789E00B0B5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				IBSC_MODULE = sushi4watch_WatchKit_Extension;
+				INFOPLIST_FILE = "sushi4watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		3F7D7FA11DE8789E00B0B5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				INFOPLIST_FILE = sushi4watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F7D7FA21DE8789E00B0B5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				INFOPLIST_FILE = sushi4watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F7D7FA41DE8789E00B0B5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				INFOPLIST_FILE = sushi4watchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushi4watch.app/sushi4watch";
+			};
+			name = Debug;
+		};
+		3F7D7FA51DE8789E00B0B5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 935UUHKEN9;
+				INFOPLIST_FILE = sushi4watchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pittankopta.sushi4watchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushi4watch.app/sushi4watch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7D7F4D1DE8789E00B0B5BA /* Build configuration list for PBXProject "sushi4watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D7F961DE8789E00B0B5BA /* Debug */,
+				3F7D7F971DE8789E00B0B5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7D7F981DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D7F991DE8789E00B0B5BA /* Debug */,
+				3F7D7F9A1DE8789E00B0B5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F7D7F9C1DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D7F9D1DE8789E00B0B5BA /* Debug */,
+				3F7D7F9E1DE8789E00B0B5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F7D7FA01DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D7FA11DE8789E00B0B5BA /* Debug */,
+				3F7D7FA21DE8789E00B0B5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F7D7FA31DE8789E00B0B5BA /* Build configuration list for PBXNativeTarget "sushi4watchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7D7FA41DE8789E00B0B5BA /* Debug */,
+				3F7D7FA51DE8789E00B0B5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7D7F4A1DE8789E00B0B5BA /* Project object */;
+}
